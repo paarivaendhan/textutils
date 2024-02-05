@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar title = 'TextUtils' mode={mode} toggleMode={toggleMode}/>
+        <Navbar title = 'Text-Utils' mode={mode} toggleMode={toggleMode}/>
         <div className="container my-3">
          <Routes>
             <Route path="/about" element={<About />} />
