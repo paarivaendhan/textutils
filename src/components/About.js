@@ -38,31 +38,31 @@ export default function About() {
         <div className="accordion-item">
         <h2 className="accordion-header">
             <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            Accordion Item #1
+            <strong>Analyze Your Text:</strong>
             </button>
         </h2>
         <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div className="accordion-body" style={myStyle}>Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            <div className="accordion-body" style={myStyle}>Unlock the Power of Text Manipulation TextUtils empowers you to analyze your text with precision and ease. Whether you're examining the sentiment, counting words, or extracting key information, our app provides a user-friendly interface for performing various text analyses. Dive into a world of linguistic exploration and enhance your understanding of the textual content like never before.</div>
         </div>
         </div>
         <div className="accordion-item">
         <h2 className="accordion-header">
             <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            Accordion Item #2
+            <strong>Free to use:</strong>
             </button>
         </h2>
         <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div className="accordion-body" style={myStyle}>Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            <div className="accordion-body" style={myStyle}>Text Manipulation Made Accessible At TextUtils, we believe in making powerful text manipulation tools accessible to everyone. That's why we're proud to offer our app completely free of charge. No hidden fees or subscriptions - just a straightforward and robust platform for you to manipulate and analyze your text without any financial barriers. Enjoy the freedom to explore the possibilities of text manipulation at no cost.</div>
         </div>
         </div>
         <div className="accordion-item">
         <h2 className="accordion-header">
             <button className="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            Accordion Item #3
+            <strong>Compatible:</strong>
             </button>
         </h2>
         <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-            <div className="accordion-body" style={myStyle}>Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            <div className="accordion-body" style={myStyle}>Seamless Integration Across Platforms TextUtils is designed to seamlessly integrate into your workflow, ensuring compatibility across various platforms and devices. Whether you're on the go with your mobile device or working on a desktop, our app ensures a consistent and smooth experience. With TextUtils, enjoy the flexibility to manipulate your text wherever you are, bringing the power of linguistic analysis to your fingertips.</div>
         </div>
         </div>
         </div>

@@ -30,14 +30,14 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar title = 'Text-Utils' mode={mode} toggleMode={toggleMode}/>
-        <div className="container my-3">
-         <Routes>
+        <Navbar title = 'TextUtils' mode={mode} toggleMode={toggleMode}/>
+       <div className="container my-3">
+        <Routes>
             <Route path="/about" element={<About />} />
             <Route path="/" element={<Textform heading = "Enter the text to analyze" setTextColor={textColor} bgColor={bgColor} />} />
-          </Routes>      
-        </div>
-      </BrowserRouter>
+        </Routes> 
+       </div>
+     </BrowserRouter>
     </>
   );
 }
